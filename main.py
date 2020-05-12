@@ -36,19 +36,19 @@ def on_chat_message(msg):
         rise = random.choice(Peak)
         if msg['text'] == '/start':
             bot.sendMessage(chat_id, 'High The Money | OlympTrade Bot:\n'
-                                     'Здраствуйте,введите ключ,полученый у @vanikiopik', reply_markup=KeyboardMenuFirst)
+                                     'Здраствуйте,введите ключ,полученый у @OTRBot_support', reply_markup=KeyboardMenuFirst)
 
         if msg['text'] == 'ᅠᅠМенюᅠᅠ':
             bot.sendMessage(chat_id, 'High The Money | OlympTrade Bot:\n'
                                      'Для получения доступа введите ключ,\n'
-                                     'полученный у @vanikiopik')
+                                     'полученный у @OTRBot_support')
 
         if msg['text'] == 'Условия получения доступа к боту':
             bot.sendMessage(chat_id, 'High The Money | OlympTrade Bot:\n'
                                      'I. Бот доступен  для жителей Беларуси, Украины и Казахстана\n'
                                      '    (Можно использовать VPN)\n'
                                      'II. Вы должны зарегестрироваться по ссылке,предоставленной\n'
-                                     '    администратором @vanikiopik и сделать депозит на свой счёт\n'
+                                     '    администратором @OTRBot_support и сделать депозит на свой счёт\n'
                                      '    от 10$.\n'
                                      'В итоге вы получаете свой личный пароль для пользования функционалом бота.\n'
                                      'P.S: Доступ к боту неограничен. Функционал бота будет совершенстоваваться.\n')
